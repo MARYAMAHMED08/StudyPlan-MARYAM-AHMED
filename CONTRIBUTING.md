@@ -7,6 +7,7 @@ Thank you for your interest in contributing to **StudyPlan** — an application 
 - [GSSoC/NSoC Contributors — Start Here](#-gssocnsoc-contributors--start-here)
 - [Getting Started](#-getting-started)
 - [System Architecture](#-system-architecture)
+- [Branch Naming Convention](#-branch-naming-convention)
 - [Commit Message Format](#-commit-message-format)
 - [Pull Request Guidelines](#-pull-request-guidelines)
 - [Reporting Issues](#-reporting-issues)
@@ -58,6 +59,20 @@ SQLite Database
 ↓
 State Management + UI Sync
 ```
+
+---
+
+## 🌿 Branch Naming Convention
+
+Use the following prefixes:
+
+| Prefix      | Use for                  |
+| ----------- | ------------------------ |
+| `feat/`     | New features             |
+| `fix/`      | Bug fixes                |
+| `docs/`     | Documentation changes    |
+| `refactor/` | Code refactoring         |
+| `chore/`    | Maintenance tasks        |
 
 ---
 
