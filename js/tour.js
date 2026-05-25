@@ -15,7 +15,7 @@ const tourSteps = [
         target: 'cal-grid',
         title: 'Your Calendar',
         message: 'Your tasks appear here. Blue dots are study sessions, red dots are deadlines.',
-        position: 'Bottom',
+        position: 'bottom',
     },
     {
         target: 'subjects-sidebar-list',
