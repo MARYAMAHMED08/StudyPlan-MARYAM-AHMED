@@ -3,6 +3,7 @@ import { extractTasksFromText } from './utils/api.js';
 import { initGlobalErrorBoundary } from './utils/errorBoundary.js';
 import { analyzeWorkload } from './utils/scheduler.js';
 import { Toast } from './utils/toast.js';
+import { initTour } from './tour.js';
 
 initGlobalErrorBoundary();
 
@@ -1244,4 +1245,8 @@ if (quoteEl) {
 }
 calendarDownloadBtn.addEventListener('click', () => {
   downloadCalendar();
+});
+
+window.addEventListener('studyplan:login', () => {
+  initTour();
 });
