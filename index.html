@@ -372,6 +372,7 @@ document.getElementById('auth-submit-btn').addEventListener('click', async () =>
 
       localStorage.setItem('studyplan_user', JSON.stringify({ email: data.email }));
       document.getElementById('auth-modal').style.display = 'none';
+      window.dispatchEvent(new Event('studyplan:login'));
 
     } catch (err) {
       errorEl.textContent = 'Network error. Please try again.';
