@@ -1381,15 +1381,11 @@ if (quoteEl) {
 
   quoteEl.textContent = quotes[index];
 }
-calendarDownloadBtn.addEventListener('click', () => {
-  downloadCalendar();
-});
 
 window.addEventListener('studyplan:login', () => {
   initTour();
 });
 
-const calendarDownloadBtn = document.getElementById('calendar-download-btn');
 
 if (calendarDownloadBtn) {
   calendarDownloadBtn.addEventListener('click', () => {
